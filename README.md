@@ -23,6 +23,7 @@ Also attach the key with the same.
 
 Note: Wordpress instance has to be part of public subnet so that our client can connect our site. Mysql instance has to be part of private subnet so that outside world can't connect to it.
 Lets's Start
+
 Step-1
 * AMAZON VPC
 Amazon Virtual Private Cloud (Amazon VPC) enables you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
