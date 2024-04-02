@@ -2,6 +2,7 @@
 
 provider "aws" {
   region     = "ap-south-1" 
+  profile    = "komal" 
 }
 
 # Creating VPC
@@ -96,7 +97,7 @@ depends_on = [
 # Saving Key to local file
 resource "local_file" "file" {
     content  = tls_private_key.key.private_key_pem
-    filename = "C:/Users/User/Downloads/aws key/wordpress_key.pem"
+    filename = "C:/Users/User/Downloads/aws_key/wordpress_key.pem"
     file_permission = "0400"
 }
 
